@@ -16,7 +16,6 @@ import java.util.List;
 public abstract class BasePage {
 
     protected static final Logger log = LogManager.getLogger(BasePage.class);
-
     protected final WebDriver driver;
     protected final WebDriverWait wait;
 
@@ -24,11 +23,9 @@ public abstract class BasePage {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(ConfigReader.explicitWait()));
     }
-
     protected WebElement visible(By locator) {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
-
     protected WebElement clickable(By locator) {
         return wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
@@ -36,13 +33,11 @@ public abstract class BasePage {
     protected List<WebElement> allVisible(By locator) {
         return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
     }
-
     protected void type(By locator, String value) {
         WebElement element = visible(locator);
         element.clear();
         element.sendKeys(value);
     }
-
     protected void click(By locator) {
         clickable(locator).click();
     }
