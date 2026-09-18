@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d9f4d011-99b8-440e-98e0-299c3af7ed59" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../automation-testing-project\exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3I2zGMv5gHUWOKJGFYpfWm8SWrS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.automation-testing-project [clean,test].executor": "Run",
+    "Maven.automation-testing-project [test].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "TestNG.AddEmployeeTests.testAddEmployeeEndToEnd.executor": "Run",
+    "TestNG.AddEmployeeTests.testAddEmployeeWithEmptyFirstName.executor": "Run",
+    "TestNG.AddEmployeeTests.testOpenAddEmployeePage.executor": "Run",
+    "TestNG.AdminTests.testAddUserFormFields.executor": "Run",
+    "TestNG.EmployeeSearchTests.testSearchExistingEmployee.executor": "Run",
+    "TestNG.EmployeeSearchTests.testSearchNonExistingEmployee.executor": "Run",
+    "TestNG.LoginTests.executor": "Run",
+    "TestNG.LoginTests.testLoginWithEmptyFields.executor": "Run",
+    "TestNG.LoginTests.testLoginWithInvalidCredentials.executor": "Run",
+    "TestNG.LoginTests.testLoginWithValidCredentials.executor": "Run",
+    "TestNG.UiTests.testFooterBrandingLink.executor": "Run",
+    "TestNG.UiTests.testSidebarMenuItems.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/finalproject/automation-testing-project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\finalproject\automation-testing-project\src\main\java" />
+      <recent name="F:\finalproject\automation-testing-project\src\test\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.orangehrm.base" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.UiTests.testSidebarMenuItems">
+    <configuration name="AddEmployeeTests.testAddEmployeeEndToEnd" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-testing-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.orangehrm.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.orangehrm.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.orangehrm.tests.AddEmployeeTests" />
+      <option name="METHOD_NAME" value="testAddEmployeeEndToEnd" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddEmployeeTests.testAddEmployeeWithEmptyFirstName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-testing-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.orangehrm.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.orangehrm.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.orangehrm.tests.AddEmployeeTests" />
+      <option name="METHOD_NAME" value="testAddEmployeeWithEmptyFirstName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminTests.testAddUserFormFields" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-testing-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.orangehrm.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.orangehrm.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.orangehrm.tests.AdminTests" />
+      <option name="METHOD_NAME" value="testAddUserFormFields" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UiTests.testFooterBrandingLink" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-testing-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.orangehrm.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.orangehrm.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.orangehrm.tests.UiTests" />
+      <option name="METHOD_NAME" value="testFooterBrandingLink" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UiTests.testSidebarMenuItems" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-testing-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.orangehrm.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.orangehrm.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.orangehrm.tests.UiTests" />
+      <option name="METHOD_NAME" value="testSidebarMenuItems" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.UiTests.testSidebarMenuItems" />
+        <item itemvalue="TestNG.UiTests.testFooterBrandingLink" />
+        <item itemvalue="TestNG.AdminTests.testAddUserFormFields" />
+        <item itemvalue="TestNG.AddEmployeeTests.testAddEmployeeEndToEnd" />
+        <item itemvalue="TestNG.AddEmployeeTests.testAddEmployeeWithEmptyFirstName" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9f4d011-99b8-440e-98e0-299c3af7ed59" name="Changes" comment="" />
+      <created>1786977354850</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1786977354850</updated>
+      <workItem from="1787574766561" duration="326000" />
+      <workItem from="1787576980353" duration="6000" />
+      <workItem from="1787577432346" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/orangehrm/pages/AdminPage.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/orangehrm/tests/AddEmployeeTests.java</url>
+          <line>27</line>
+          <properties class="com.orangehrm.tests.AddEmployeeTests" method="testOpenAddEmployeePage">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/orangehrm/tests/AdminTests.java</url>
+          <line>15</line>
+          <properties class="com.orangehrm.tests.AdminTests" method="testAddUserFormFields">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
