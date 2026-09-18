@@ -1,0 +1,8 @@
+com\orangehrm\tests\UiTests.class
+com\orangehrm\tests\AdminTests.class
+com\orangehrm\tests\LoginTests.class
+com\orangehrm\tests\AddEmployeeTests.class
+com\orangehrm\listeners\RetryAnalyzer.class
+com\orangehrm\tests\EmployeeSearchTests.class
+com\orangehrm\listeners\RetryListener.class
+com\orangehrm\base\BaseTest.class

@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">OrangeHRM Automation Suite</th></tr>
+<tr><td><a href="#t0">Login &amp; Authentication Tests</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">89,303</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Admin &amp; UI Features Tests</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">183,126</td><td></td><td></td></tr>
+<tr><td><a href="#t2">PIM &amp; Employee Management Tests</a></td><td class="num">5</td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">231,648</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">11</th><th class="num">0</th><th class="num attn">2</th><th class="num">0</th><th class="num">504,077</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">OrangeHRM Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login &amp; Authentication Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.orangehrm.tests.LoginTests</td><td><a href="#m0">testLoginWithEmptyFields</a></td><td rowspan="1">1789734970840</td><td rowspan="1">19002</td></tr><tr class="passedeven"><td><a href="#m1">testLoginWithInvalidCredentials</a></td><td rowspan="1">1789734992250</td><td rowspan="1">29697</td></tr><tr class="passedeven"><td><a href="#m2">testLoginWithValidCredentials</a></td><td rowspan="1">1789735023840</td><td rowspan="1">28634</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Admin &amp; UI Features Tests &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">com.orangehrm.tests.UiTests</td><td><a href="#m3">testFooterBrandingLink</a></td><td rowspan="1">1789735006618</td><td rowspan="1">79213</td></tr><tr><th colspan="4">Admin &amp; UI Features Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.orangehrm.tests.AdminTests</td><td><a href="#m4">testAddUserFormFields</a></td><td rowspan="1">1789734970651</td><td rowspan="1">33850</td></tr><tr class="passedodd"><td rowspan="2">com.orangehrm.tests.UiTests</td><td><a href="#m5">testFooterBrandingLink</a></td><td rowspan="1">1789735087633</td><td rowspan="1">38402</td></tr><tr class="passedodd"><td><a href="#m6">testSidebarMenuItems</a></td><td rowspan="1">1789735127809</td><td rowspan="1">18476</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">PIM &amp; Employee Management Tests &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">com.orangehrm.tests.AddEmployeeTests</td><td><a href="#m7">testAddEmployeeEndToEnd</a></td><td rowspan="1">1789735041665</td><td rowspan="1">45825</td></tr><tr><th colspan="4">PIM &amp; Employee Management Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.orangehrm.tests.AddEmployeeTests</td><td><a href="#m8">testAddEmployeeEndToEnd</a></td><td rowspan="1">1789735090018</td><td rowspan="1">46727</td></tr><tr class="passedeven"><td><a href="#m9">testAddEmployeeWithEmptyFirstName</a></td><td rowspan="1">1789735138686</td><td rowspan="1">37522</td></tr><tr class="passedeven"><td><a href="#m10">testOpenAddEmployeePage</a></td><td rowspan="1">1789735177937</td><td rowspan="1">16828</td></tr><tr class="passedodd"><td rowspan="2">com.orangehrm.tests.EmployeeSearchTests</td><td><a href="#m11">testSearchExistingEmployee</a></td><td rowspan="1">1789734970286</td><td rowspan="1">30538</td></tr><tr class="passedodd"><td><a href="#m12">testSearchNonExistingEmployee</a></td><td rowspan="1">1789735003296</td><td rowspan="1">36561</td></tr></tbody>
+</table>
+<h2>Login &amp; Authentication Tests</h2><h3 id="m0">com.orangehrm.tests.LoginTests#testLoginWithEmptyFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.orangehrm.tests.LoginTests#testLoginWithInvalidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>WrongUser</td><td>wrongPass123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.orangehrm.tests.LoginTests#testLoginWithValidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Admin</td><td>admin123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Admin &amp; UI Features Tests</h2><h3 id="m3">com.orangehrm.tests.UiTests#testFooterBrandingLink</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 40.000
+  (Session info: chrome=152.0.7977.83)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1db46a0781f9ef620e93100ba9087837, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.83, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\SOUQEL~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61156}, goog:processID: 18780, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61156/devtoo..., se:cdpVersion: 152.0.7977.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db46a0781f9ef620e93100ba9087837
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:325)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:124)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:119)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at com.orangehrm.tests.UiTests.testFooterBrandingLink(UiTests.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.orangehrm.tests.AdminTests#testAddUserFormFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.orangehrm.tests.UiTests#testFooterBrandingLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.orangehrm.tests.UiTests#testSidebarMenuItems</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>PIM &amp; Employee Management Tests</h2><h3 id="m7">com.orangehrm.tests.AddEmployeeTests#testAddEmployeeEndToEnd</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>John</td><td>Doe040050</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.name: username (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.83, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\SOUQEL~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61385}, goog:processID: 17024, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61385/devtoo..., se:cdpVersion: 152.0.7977.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43ca7e258017c6e799016f08509eb995
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.orangehrm.base.BasePage.visible(BasePage.java:29)
+	at com.orangehrm.base.BasePage.type(BasePage.java:41)
+	at com.orangehrm.pages.LoginPage.enterUsername(LoginPage.java:25)
+	at com.orangehrm.pages.LoginPage.login(LoginPage.java:46)
+	at com.orangehrm.base.BaseTest.loginWithValidUser(BaseTest.java:51)
+	at com.orangehrm.tests.AddEmployeeTests.testAddEmployeeEndToEnd(AddEmployeeTests.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.orangehrm.tests.AddEmployeeTests#testAddEmployeeEndToEnd</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>John</td><td>Doe040050</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.orangehrm.tests.AddEmployeeTests#testAddEmployeeWithEmptyFirstName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.orangehrm.tests.AddEmployeeTests#testOpenAddEmployeePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.orangehrm.tests.EmployeeSearchTests#testSearchExistingEmployee</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Charlotte Smith</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.orangehrm.tests.EmployeeSearchTests#testSearchNonExistingEmployee</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Zzqx Notreal</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

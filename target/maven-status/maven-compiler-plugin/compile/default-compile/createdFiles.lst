@@ -1,0 +1,10 @@
+com\orangehrm\utils\DriverFactory.class
+com\orangehrm\utils\JsonDataReader.class
+com\orangehrm\pages\AdminPage.class
+com\orangehrm\pages\AddEmployeePage.class
+com\orangehrm\pages\DashboardPage.class
+com\orangehrm\pages\LoginPage.class
+com\orangehrm\utils\AllureUtils.class
+com\orangehrm\base\BasePage.class
+com\orangehrm\utils\ConfigReader.class
+com\orangehrm\pages\PimPage.class
